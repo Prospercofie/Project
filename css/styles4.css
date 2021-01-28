@@ -1,0 +1,54 @@
+html, body {
+
+    scroll-behavior: smooth;
+    
+    
+}
+
+
+
+.scroll-top {
+    position: fixed;
+    bottom: 10px;
+    left:  30px;
+}
+
+
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+background-color: aqua;
+
+}
+h1{
+text-align: center;
+}
+
+.banner {
+background-image: url(../images/women.PNG);
+background-repeat: repeat;
+background-position: left top;
+width: 989px;
+height: 203px;
+float: left;
+}
+
+.menubar{
+text-align: center;
+
+}
+.menubar ul{
+display: inline-flex;
+}
+.menubar ul li{
+list-style: none;
+padding: 15px;
+}
+.footwear, .menubar ul li:hover{
+background-color: blanchedalmond;
+}
+.menubar ul li a:hover{
+text-decoration: none;
+}
+
